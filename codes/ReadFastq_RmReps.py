@@ -28,6 +28,7 @@ import pandas as pd
 from Bio.SeqRecord import SeqRecord
 import os
 from random import sample
+import random
 
 ### a function starting this script
 def start():
@@ -77,6 +78,7 @@ def read_and_write(input_path):
 
     ### down sampling using the sample_num
     if len(new_records) > sample_num:
+        random.seed(1234)
         new_records = sample(new_records, sample_num)
 
     # write out the filtered sequences
