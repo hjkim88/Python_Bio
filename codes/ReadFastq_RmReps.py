@@ -19,7 +19,13 @@ input_fastq_path = ["Z:/ResearchHome/ResearchHomeDirs/thomagrp/common/Hyunjin/Al
                     "Z:/ResearchHome/ResearchHomeDirs/thomagrp/common/Hyunjin/Allison_HLA/data/2-1131806/1894886_JCC209_AK_FLC_AscitesTIL_Rxn1_Gex_S1_L002_R2_001_HLA.fastq",
                     "Z:/ResearchHome/ResearchHomeDirs/thomagrp/common/Hyunjin/Allison_HLA/data/2-1244730/1977314_JCC223_AK-1_P9R_GEX_S11_L002_R2_001_HLA.fastq",
                     "Z:/ResearchHome/ResearchHomeDirs/thomagrp/common/Hyunjin/Allison_HLA/data/2-1244731/1977315_JCC223_AK-2_B3unstim_GEX_S12_L003_R2_001_HLA.fastq"]
-sample_num=100000
+input_fastq_path = ["Z:/ResearchHome/ResearchHomeDirs/thomagrp/common/Hyunjin/Allison_HLA/hisat-genotype/AK_FLC_AscitesTIL_Rxn1_Gex_S1_L001_R2_001.fastq",
+                    "Z:/ResearchHome/ResearchHomeDirs/thomagrp/common/Hyunjin/Allison_HLA/hisat-genotype/AK_FLC_AscitesTIL_Rxn1_Gex_S1_L002_R2_001.fastq",
+                    "Z:/ResearchHome/ResearchHomeDirs/thomagrp/common/Hyunjin/Allison_HLA/hisat-genotype/SJ-FLC-B2_GEX_S2_L001_R2_001.fastq",
+                    "Z:/ResearchHome/ResearchHomeDirs/thomagrp/common/Hyunjin/Allison_HLA/hisat-genotype/SJ-FLC-B2_GEX_S2_L002_R2_001.fastq",
+                    "Z:/ResearchHome/ResearchHomeDirs/thomagrp/common/Hyunjin/Allison_HLA/hisat-genotype/AK-2_B3unstim_GEX_S12_L003_R2_001.fastq",
+                    "Z:/ResearchHome/ResearchHomeDirs/thomagrp/common/Hyunjin/Allison_HLA/hisat-genotype/AK-1_P9R_GEX_S11_L002_R2_001.fastq"]
+sample_num=300000
 
 ### import modules
 import timeit
@@ -82,6 +88,6 @@ def read_and_write(input_path):
         new_records = sample(new_records, sample_num)
 
     # write out the filtered sequences
-    SeqIO.write(new_records, os.path.splitext(input_path)[0] + '_RepRemoved_100k_Sampled.fastq', "fastq")
+    SeqIO.write(new_records, os.path.splitext(input_path)[0] + '_RepRemoved_300k_Sampled.fastq', "fastq")
 
 start()
