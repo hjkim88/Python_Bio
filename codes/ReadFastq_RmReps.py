@@ -25,6 +25,7 @@ input_fastq_path = ["Z:/ResearchHome/ResearchHomeDirs/thomagrp/common/Hyunjin/Al
                     "Z:/ResearchHome/ResearchHomeDirs/thomagrp/common/Hyunjin/Allison_HLA/hisat-genotype/SJ-FLC-B2_GEX_S2_L002_R2_001.fastq",
                     "Z:/ResearchHome/ResearchHomeDirs/thomagrp/common/Hyunjin/Allison_HLA/hisat-genotype/AK-2_B3unstim_GEX_S12_L003_R2_001.fastq",
                     "Z:/ResearchHome/ResearchHomeDirs/thomagrp/common/Hyunjin/Allison_HLA/hisat-genotype/AK-1_P9R_GEX_S11_L002_R2_001.fastq"]
+input_fastq_path = ["Z:/ResearchHome/ProjectSpace/thomagrp/JCC282_Hematopoiesis/common/HK/2156502_JCC223_AK-FLC02_GEX_S4_L001_R2_001_HLA.fastq"]
 sample_num=300000
 
 ### import modules
