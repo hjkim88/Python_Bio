@@ -94,6 +94,6 @@ def read_and_write(input_path):
         new_records = sample(new_records, sample_num)
 
     # write out the filtered sequences
-    SeqIO.write(new_records, os.path.splitext(input_path)[0] + '_RepRemoved_300k_Sampled.fastq', "fastq")
+    SeqIO.write(new_records, os.path.splitext(input_path)[0] + '_RepRemoved_' + str(int(sample_num/1000)) + 'k_Sampled.fastq', "fastq")
 
 start()
