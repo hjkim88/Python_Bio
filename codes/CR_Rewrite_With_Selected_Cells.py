@@ -8,7 +8,7 @@
 #
 #   Instruction
 #               1. Run ReadCR_WriteH5AD.py
-#               3. The results will be generated under the spcified directory
+#               3. The results will be generated under the specified directory
 ###
 
 ### import modules
