@@ -26,6 +26,14 @@ python /mnt/z/ResearchHome/SharedResources/Immunoinformatics/hkim8/Scenic/arbore
   --num_workers 20 \
   --seed 777
 
+python /mnt/z/ResearchHome/SharedResources/Immunoinformatics/hkim8/Scenic/arboreto_with_multiprocessing.py \
+  /mnt/z/ResearchHome/SharedResources/Immunoinformatics/hkim8/Scenic/cluster3_8_seurat.loom \
+  /mnt/z/ResearchHome/SharedResources/Immunoinformatics/hkim8/Scenic/hs_hgnc_tfs.txt \
+  --method grnboost2 \
+  --output /mnt/z/ResearchHome/SharedResources/Immunoinformatics/hkim8/Scenic/cluster3_8_adj.tsv \
+  --num_workers 20 \
+  --seed 777
+
 ### now use those adj.tsv, run the following code in python - linux environment
 sudo mkdir /mnt/z
 sudo mount -t drvfs Z: /mnt/z
@@ -150,3 +158,34 @@ with open("/mnt/z/ResearchHome/SharedResources/Immunoinformatics/hkim8/Scenic/co
 ### of the genes that define this regulon.
 auc_mtx3 = aucell(combined_mat, regulons3, num_workers=4)
 auc_mtx3.to_csv("/mnt/z/ResearchHome/SharedResources/Immunoinformatics/hkim8/Scenic/combined_aucell.csv")
+
+
+
+### Now it's cluster3+8's turn
+
+### load adj matrices
+cluster3_8_adjacencies = pd.read_csv("/mnt/z/ResearchHome/SharedResources/Immunoinformatics/hkim8/Scenic/cluster3_8_adj.tsv", sep="\t")
+cluster3_8_mat = sc.read_loom("/mnt/z/ResearchHome/SharedResources/Immunoinformatics/hkim8/Scenic/cluster3_8_seurat.loom")
+cluster3_8_mat = cluster3_8_mat.to_df()
+
+### set modules from grnboost2
+modules4 = list(modules_from_adjacencies(cluster3_8_adjacencies, cluster3_8_mat))
+
+### Calculate a list of enriched motifs and the corresponding target genes for all modules.
+with ProgressBar():
+	df4 = prune2df(dbs, modules4, MOTIF_ANNOTATIONS_FNAME)
+
+### Create regulons from this table of enriched motifs.
+regulons4 = df2regulons(df4)
+
+### Save the enriched motifs and the discovered regulons to disk.
+df4.to_csv("/mnt/z/ResearchHome/SharedResources/Immunoinformatics/hkim8/Scenic/cluster3_8_motifs.csv")
+with open("/mnt/z/ResearchHome/SharedResources/Immunoinformatics/hkim8/Scenic/cluster3_8_regulons.p", "wb") as f:
+	pickle.dump(regulons4, f)
+
+### characterize the different cells in a single-cell transcriptomics experiment
+### via the enrichment of the previously discovered regulons.
+### Enrichment of a regulon is measured as the Area Under the recovery Curve (AUC)
+### of the genes that define this regulon.
+auc_mtx4 = aucell(cluster3_8_mat, regulons4, num_workers=4)
+auc_mtx4.to_csv("/mnt/z/ResearchHome/SharedResources/Immunoinformatics/hkim8/Scenic/cluster3_8_aucell.csv")
