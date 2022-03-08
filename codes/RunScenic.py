@@ -45,7 +45,7 @@ if __name__ == '__main__':
 
     dbs = [RankingDatabase(fname=fname, name=name(fname)) for fname in db_fnames]
 
-    MOTIF_ANNOTATIONS_FNAME = os.path.join("Z:/ResearchHome/SharedResources/Immunoinformatics/hkim8/Scenic/motifs-v9-nr.hgnc-m0.001-o0.0.tbl")
+    MOTIF_ANNOTATIONS_FNAME = os.path.join(r"Z:/ResearchHome/SharedResources/Immunoinformatics/hkim8/Scenic/motifs-v9-nr.hgnc-m0.001-o0.0.tbl")
 
     ### load the data
     adata = sc.read_10x_h5("C:/Users/hkim8/Documents/SJCAR/data/pbmc_10k_v3_filtered_feature_bc_matrix.h5")
