@@ -23,10 +23,10 @@ mat = adata.raw.X.toarray()
 pd.DataFrame(data=mat, index=adata.obs_names, columns=adata.raw.var_names).to_csv("/Users/hyunjin.kim2/Documents/SimpleTasks/results/PID5202/MSR1/concat_raw_counts.csv")
 
 ### write scaled counts
-pd.DataFrame(data=adata.X, index=adata.obs_names, columns=adata.raw.var_names).to_csv("/Users/hyunjin.kim2/Documents/SimpleTasks/results/PID5202/MSR1/concat_scaled_counts.csv")
+pd.DataFrame(data=adata.X, index=adata.obs_names, columns=adata.var_names).to_csv("/Users/hyunjin.kim2/Documents/SimpleTasks/results/PID5202/MSR1/concat_scaled_counts.csv")
 
 ### write meta data
-pd.DataFrame(data=adata.obs, index=adata.obs_names, columns=adata.raw.var_names).to_csv("/Users/hyunjin.kim2/Documents/SimpleTasks/results/PID5202/MSR1/concat_metadata.csv")
+pd.DataFrame(data=adata.obs, index=adata.obs.index, columns=adata.obs.columns).to_csv("/Users/hyunjin.kim2/Documents/SimpleTasks/results/PID5202/MSR1/concat_metadata.csv")
 
 ### write PCA/UMAP
 dim_methods = list(adata.obsm.keys())
