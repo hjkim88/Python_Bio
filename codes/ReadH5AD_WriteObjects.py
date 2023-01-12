@@ -16,7 +16,8 @@ import pandas as pd
 import anndata as ad
 
 ### read h5ad
-adata = sc.read_h5ad("/Users/hyunjin.kim2/Documents/SimpleTasks/results/PID5202/MSR1/concat_gex.h5ad")
+# adata = sc.read_h5ad("/Users/hyunjin.kim2/Documents/SimpleTasks/results/PID5202/MSR1/concat_gex.h5ad")
+adata = sc.read_h5ad("C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID4835/PID4835_concat_data_gex.h5ad")
 
 ### write raw counts
 mat = adata.raw.X.toarray()
