@@ -16,5 +16,4 @@ import pandas as pd
 import anndata as ad
 
 ### read h5ad
-adata = sc.read_h5ad("C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID4835/PID4835_concat_data_010423_gex.h5ad",
-                     gex_only=False)
+adata = sc.read_h5ad("C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID4835/PID4835_concat_data_010423_gex.h5ad")

@@ -218,6 +218,56 @@ input_fastq_path = ["Z:/ResearchHome/SharedResources/Immunoinformatics/hkim8/SJC
 input_fastq_path = ["Z:/ResearchHome/SharedResources/Immunoinformatics/hkim8/SJCAR19_data/data/JCC212_SJCAR19-07_Wk1_PB_short.thomagrp_176316_10x-1.2-1088438.PB_Gex_S5_L001_R2_001.fastq"]
 input_fastq_path = ["Z:/ResearchHome/SharedResources/Immunoinformatics/hkim8/CATCHAML/2227092_JCC319_CATCHAML-05_GMP_GEX_S2_L001_R2_001.fastq",
 "Z:/ResearchHome/SharedResources/Immunoinformatics/hkim8/CATCHAML/2194808_JCC319_CATCHAML-05_Wk-1_GEX_S1_L001_R2_001.fastq"]
+input_fastq_path = ["C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1749853_1_1_1_S1_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1749853_1_1_1_S3_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1749853_2_1_1_S2_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1749853_2_1_1_S4_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1749854_1_1_1_S3_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1749854_1_1_1_S7_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1749854_2_1_1_S4_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1749854_2_1_1_S8_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1753268_2_1_1_S14_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1760324_1_1_2_S1_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1760324_1_1_2_S5_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1760324_2_1_2_S2_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1760324_2_1_2_S6_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1767708_1_1_1_S19_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1767708_2_1_1_S20_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1767709_1_1_1_S1_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1767709_1_1_1_S3_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1767709_2_1_1_S2_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1767709_2_1_1_S4_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1767712_1_1_1_S3_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1767712_2_1_1_S4_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1780202_1_1_1_S1_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1780202_2_1_1_S2_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1780203_1_1_1_S3_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1780203_1_1_1_S7_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1780203_2_1_1_S4_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1780203_2_1_1_S8_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1797329_1_1_1_S1_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1797329_2_1_1_S2_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1797330_1_1_1_S3_L002_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1797330_2_1_1_S4_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1823419_2_1_1_S4_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1823420_1_1_1_S7_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1823420_2_1_1_S8_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1824141_1_1_1_S29_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1824141_2_1_1_S12_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1824141_2_1_1_S30_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1824142_1_1_1_S13_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1824142_1_1_1_S33_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1824142_2_1_1_S34_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1831047_1_1_1_S15_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1831047_2_1_1_S16_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1840999_1_1_1_S1_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1840999_2_1_1_S2_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1841000_1_1_1_S3_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1841000_2_1_1_S4_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1853817_1_1_1_S2_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1853817_2_1_1_S1_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1853818_1_1_1_S4_L001_R2_001_HLA.fastq",
+"C:/Users/hyunjin.kim2/Documents/RProjects/SimpleTasks/data/PID5455/HLA/FASTQ/1853818_2_1_1_S3_L001_R2_001_HLA.fastq"]
 sample_num=300000
 
 ### import modules
@@ -228,6 +278,8 @@ from Bio.SeqRecord import SeqRecord
 import os
 from random import sample
 import random
+import gzip
+import gc
 
 ### a function starting this script
 def start():
@@ -235,13 +287,18 @@ def start():
 
     start_time = timeit.default_timer()
     for fp in input_fastq_path:
-        read_and_write(fp)
+        read_and_write(fp, os.path.split(fp)[0])
     print("Execution Time: ", timeit.default_timer() - start_time)
 
 ### read fastq and write without duplicates
-def read_and_write(input_path):
+def read_and_write(input_path, output_path):
     if verbose:
         print("read_and_write()")
+
+    # unzip if the file is fastq.gz
+    if os.path.splitext(input_path)[1] == '.gz':
+        os.system('gunzip ' + input_path + ' ' + output_path + os.path.splitext(os.path.split(input_path)[1])[0])
+        input_path = output_path + os.path.splitext(input_path)[0]
 
     # read the fastq file
     records = list(SeqIO.parse(input_path, "fastq"))
@@ -282,5 +339,15 @@ def read_and_write(input_path):
 
     # write out the filtered sequences
     SeqIO.write(new_records, os.path.splitext(input_path)[0] + '_RepRemoved_' + str(int(sample_num/1000)) + 'k_Sampled.fastq', "fastq")
+
+    # Returns the number of
+    # objects it has collected
+    # and deallocated
+    collected = gc.collect()
+
+    # Prints Garbage collector
+    # as 0 object
+    print("Garbage collector: collected",
+          "%d objects." % collected)
 
 start()
